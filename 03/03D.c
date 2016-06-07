@@ -30,7 +30,6 @@ int main(void) {
   char buf[BUFSIZE], *account;
   int i, len, id;
 
-
   /* 5(STDNT) 人分の学籍番号とアカウント名を読み込み，配列students にセットする．*/
   for (i = 0; i < STDNT; i++) {
     fgets(buf, sizeof(buf), stdin);
@@ -46,7 +45,6 @@ int main(void) {
 
     set(&students[i], id, account); /* ここからset を呼び出している*/
   }
-
 
   /* 学籍番号が与えられる間，それに対応するアカウント名を表示する．*/
   while (fgets(buf, sizeof(buf), stdin)) {

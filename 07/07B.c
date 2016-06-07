@@ -47,7 +47,6 @@ double fact2(double n){//繰り返しを用いたnの階乗
   return ans;
   }
 
-
 /*int main(void){
   double x,n=0,ans=0;
   //scanf("%lf",&x);
