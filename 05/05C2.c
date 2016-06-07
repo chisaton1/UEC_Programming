@@ -6,16 +6,16 @@ char *check(int *c, char *s){
 
   while(1){
 
-  if(*s=='('){
-    s++;//括弧の次の文字のポインタへ
-    *c = 3;
-    return check(c,s);
+    if(*s=='('){
+      s++;//括弧の次の文字のポインタへ
+      *c = 3;
+      return check(c,s);
 
-    if(*s==')'){
-      s++;
-      return check(c,s);//文字チェックへ戻る
-	}else{
-      *c=3;//パターンC（とじ括弧が足りない）
+      if(*s==')'){
+        s++;
+        return check(c,s);//文字チェックへ戻る
+	   }else{
+        *c=3;//パターンC（とじ括弧が足りない）
     }
   }
 
@@ -34,7 +34,7 @@ char *check(int *c, char *s){
     
     if(*s==')'){
       return check(c,s);
-         }
+    }
 
     if(*s=='}'){ 
       return check(c,s);

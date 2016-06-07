@@ -124,7 +124,6 @@ void LP_play(ListPlayer lp, int b, int e){
     e=lp.n;
   }
 
-  
   for(i=b;i<=e;i++){
     printf("%s\n",lp.music[i]);
   }

@@ -42,8 +42,6 @@ void printlist(struct node *p){
   printlist(p->next);
 }
 
-
-
 int main(void) {
   struct node *list;
   list = initlist();

@@ -36,6 +36,7 @@ int main(void){
   return 0;
 
 }
+
 /*
 void printlist(struct node *p){
   if(p==NULL){

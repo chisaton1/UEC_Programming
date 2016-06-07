@@ -123,10 +123,6 @@ int main(void) {
 
    }
 
-
- 
-
-
  /* 最短距離を表示する。*/
  printf("%d\n", pos.c);
  return 0;

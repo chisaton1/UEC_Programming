@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-
 typedef struct {
   int key;
 } recordtype;

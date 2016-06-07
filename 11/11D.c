@@ -73,6 +73,7 @@ int main(void) {
         set(&v, id, account); /* v の id と account を設定 */
         insert(students, nstudents, v); /* students 配列の適切な位置に v を挿入 */
     }
+    
     /*配列をカーソルの順にソート*/
     sort(students, nstudents);
     /* 表示 */

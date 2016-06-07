@@ -5,6 +5,7 @@ int fiv(int n) {
   int a;
   int b;
   int i;
+
   /*この時点の様子１*/
   /* for(i=3;i>=n;i--){
     if(i==3)printf("[");
@@ -15,6 +16,7 @@ int fiv(int n) {
       printf("]\n");
     }
     }*/
+    
   printf("{n=%d, a=?, b=?}\n",n);
   if (n <= 1) {
     return v[n];
